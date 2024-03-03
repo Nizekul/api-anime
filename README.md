@@ -1,13 +1,17 @@
 1. Abra o Visual Studio: Inicie o Visual Studio em seu computador.
 
-2. Abra o Projeto: Abra o projeto da API no Visual Studio. VocÍ pode fazer isso clicando em "File" (Arquivo) > "Open" (Abrir) > "Project/Solution" (Projeto/SoluÁ„o) e navegando atÈ a pasta onde est· o arquivo de soluÁ„o (.sln) do seu projeto.
+2. Abra o Projeto: Abra o projeto da API no Visual Studio. Voc√™ pode fazer isso clicando em "File" (Arquivo) > "Open" (Abrir) > "Project/Solution" (Projeto/Solu√ß√£o) e navegando at√© a pasta onde est√° o arquivo de solu√ß√£o (.sln) do seu projeto.
 
-3. Inicie a DepuraÁ„o ou Execute sem Depurar: Agora vocÍ pode iniciar a depuraÁ„o clicando em "Debug" (Depurar) > "Start Debugging" (Iniciar DepuraÁ„o) ou pressionando F5 para iniciar o servidor e executar a API em modo de depuraÁ„o. Se vocÍ quiser apenas executar a aplicaÁ„o sem depuraÁ„o, pode clicar em "Debug" (Depurar) > "Start Without Debugging" (Iniciar sem Depurar) ou pressionar Ctrl + F5.
+3. Inicie a Depura√ß√£o ou Execute sem Depurar: Agora voc√™ pode iniciar a depura√ß√£o clicando em "Debug" (Depurar) > "Start Debugging" (Iniciar Depura√ß√£o) ou pressionando F5 para iniciar o servidor e executar a API em modo de depura√ß√£o. Se voc√™ quiser apenas executar a aplica√ß√£o sem depura√ß√£o, pode clicar em "Debug" (Depurar) > "Start Without Debugging" (Iniciar sem Depurar) ou pressionar Ctrl + F5.
 
-4. Acesse a API: ApÛs iniciar a API, vocÍ pode acess·-la usando um navegador da web ou uma ferramenta de teste de API, como o Postman ou Swagger. Por padr„o, a API estar· disponÌvel em um endereÁo local, como "https://localhost:7142/". Caso ocorra algum erro de servidor no Postman tente desabilitar o SSL do Postman para testar a requisiÁ„o.
+4. Acesse a API: Ap√≥s iniciar a API, voc√™ pode acess√°-la usando um navegador da web ou uma ferramenta de teste de API, como o Postman ou Swagger. Por padr√£o, a API estar√° dispon√≠vel em um endere√ßo local, como "https://localhost:7142/". Caso ocorra algum erro de servidor no Postman tente desabilitar o SSL do Postman para testar a requisi√ß√£o.
 
-5. Ao executar ser· encaminhado para a tela de Swagger onde observar· os endpoints disponiveis.
+5. Ao executar ser√° encaminhado para a tela de Swagger onde observar√° os endpoints disponiveis.
 
-6. Teste a API: Agora que a API est· em execuÁ„o, vocÍ pode testar os endpoints definidos na API usando os mÈtodos HTTP apropriados (por exemplo, GET, POST, PUT, DELETE) e ver como a API responde aos diferentes tipos de solicitaÁ„o.
+6. Teste a API: Agora que a API est√° em execu√ß√£o, voc√™ pode testar os endpoints definidos na API usando os m√©todos HTTP apropriados (por exemplo, GET, POST, PUT, DELETE) e ver como a API responde aos diferentes tipos de solicita√ß√£o.
 
-7. Pare a DepuraÁ„o
+7. Pare a Depura√ß√£o
+
+Ser√° utilizado o Github flow pelos seguintes motivos: 
+Simplicidade: O GitHub Flow √© simples e f√°cil de entender, o que √© para um time de apenas um membro. Ele se concentra em uma √∫nica ramifica√ß√£o principal e ciclos curtos de desenvolvimento, o que simplifica o processo de desenvolvimento.
+Fluxo Linear: No GitHub Flow, o fluxo de trabalho √© linear e direto. Cada funcionalidade ou corre√ß√£o √© desenvolvida em sua pr√≥pria branch, revisada e mesclada na branch principal que ser√° a main, o que torna o acompanhamento do progresso e a resolu√ß√£o de conflitos mais simples.
