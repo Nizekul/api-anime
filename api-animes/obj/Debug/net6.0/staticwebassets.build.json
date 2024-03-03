@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7o0tFYaitn53ka5BLsfqtM0azsfgNWegHc+y9ym2fu4=",
+  "Source": "api-animes",
+  "BasePath": "_content/api-animes",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
