@@ -36,7 +36,7 @@ namespace api_animes.Tests
 
             // Assert
             response.EnsureSuccessStatusCode(); // Verifica se o código de status da resposta é 2xx
-            Assert.NotEqual(HttpStatusCode.Created, response.StatusCode); // Verifica se a resposta é 201 Created
+            Assert.Equal(HttpStatusCode.Created, response.StatusCode); // Verifica se a resposta é 201 Created
         }
     }
 }
