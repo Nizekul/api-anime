@@ -1,0 +1,11 @@
+# Arquivos de compilação e diretórios
+bin/
+obj/
+
+# Arquivos de configuração locais
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.bak
