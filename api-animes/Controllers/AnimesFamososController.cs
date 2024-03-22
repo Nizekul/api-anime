@@ -23,5 +23,19 @@ namespace api_animes.Controllers
             return Animes;
         }
 
+        [HttpPost("AddAnime")]
+        public IActionResult AddAnime([FromBody] Anime anime)
+        {
+            if (anime == null)
+            {
+                return BadRequest("Anime object is null");
+            }
+
+            anime.Id = Animes.Count + 1;
+
+            Animes.Add(anime);
+            return CreatedAtAction(nameof(GetAnimes), new { id = anime.Id }, anime);
+        }
+
     }
 }
