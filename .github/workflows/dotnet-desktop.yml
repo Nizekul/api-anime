@@ -48,5 +48,5 @@ jobs:
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"Nizekul_api-anime" /o:"nizekul" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.opencover.reportsPaths=coverage.xml
           dotnet restore
           dotnet build
-          coverlet .\bin\Debug\net6.0\ApiAnimes.UnitTests.dll --target "dotnet" --targetargs "test --no-build" -f=opencover -o="coverage.xml"
+          coverlet .\api-animes\bin\Debug\net6.0\ApiAnimes.UnitTests.dll --target "dotnet" --targetargs "test --no-build" -f=opencover -o="coverage.xml"
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
