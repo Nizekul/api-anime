@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   call-template:
-    uses: myorg/myrepo/.github/workflows/dotnet-desktop.yml@main
+    uses: myorg/myrepo/.github/workflows/mytemplate.yml@main
     secrets: inherit
   build:
     name: Build and analyze
