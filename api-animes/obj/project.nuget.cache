@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jpymBEenaUqInB0l27IEkQgh88ZLr/dPuu+OmpoQZzrBdD6E971Izmyx5RbKqtglHgZ1w/hqxPVQILrdffItQA==",
+  "dgSpecHash": "Kxsl+knSAREpfjHAlscAHON8iojdYVS6WVsw88pL1BIt7s3xPxEEe03+/tYNSCyc1pGIFjRLfqGzTUW8btMsCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lglaj\\source\\repos\\api-animes\\api-animes\\api-animes.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lglaj\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "C:\\Users\\lglaj\\.nuget\\packages\\coverlet.msbuild\\6.0.2\\coverlet.msbuild.6.0.2.nupkg.sha512",
     "C:\\Users\\lglaj\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\6.0.0\\microsoft.aspnetcore.mvc.testing.6.0.0.nupkg.sha512",
     "C:\\Users\\lglaj\\.nuget\\packages\\microsoft.aspnetcore.testhost\\6.0.0\\microsoft.aspnetcore.testhost.6.0.0.nupkg.sha512",
     "C:\\Users\\lglaj\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
