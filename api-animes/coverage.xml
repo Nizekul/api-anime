@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="51" visitedSequencePoints="45" numBranchPoints="4" visitedBranchPoints="3" sequenceCoverage="88.23" branchCoverage="75" maxCyclomaticComplexity="13" minCyclomaticComplexity="13" visitedClasses="5" numClasses="6" visitedMethods="9" numMethods="11" />
   <Modules>
-    <Module hash="B97C6A76-95BA-4812-B3B5-BD868DE27638">
+    <Module hash="B12AC6FD-DCD8-4170-9FB2-80E8563E5F66">
       <ModulePath>api-animes.dll</ModulePath>
-      <ModuleTime>2024-04-14T07:45:52</ModuleTime>
+      <ModuleTime>2024-04-14T08:30:31</ModuleTime>
       <ModuleName>api-animes</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Users\lglaj\source\repos\api-animes\api-animes\Program.cs" />
