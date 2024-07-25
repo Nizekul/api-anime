@@ -1,11 +1,15 @@
 # Arquivos de compilação e diretórios
 bin/
 obj/
+.vs/
 
 # Arquivos de configuração locais
 .vscode/
 .idea/
 
+
 # Arquivos temporários
 *.tmp
 *.bak
+/api-animes/obj/
+/api-animes/bin
