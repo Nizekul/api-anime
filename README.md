@@ -1,3 +1,6 @@
+Para rodar o Vagrant basta utilizar o comando `vagrant up`
+Por enquanto não é possive acessar externo pois será preciso hospedar o ASP.NET Core no Windows com o IIS, ainda não implementado.
+
 1. Abra o Visual Studio: Inicie o Visual Studio em seu computador.
 
 2. Abra o Projeto: Abra o projeto da API no Visual Studio. Você pode fazer isso clicando em "File" (Arquivo) > "Open" (Abrir) > "Project/Solution" (Projeto/Solução) e navegando até a pasta onde está o arquivo de solução (.sln) do seu projeto.
