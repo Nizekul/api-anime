@@ -25,7 +25,7 @@ namespace api_animes.Tests
             // Arrange
             var client = _factory.CreateClient();
 
-            var newAnime = new Anime { Title = "Test Anime", EpisodeCount = 12, Rating = 7.5 };
+            var newAnime = new AnimeModel { Title = "Test Anime", EpisodeCount = 12, Rating = 7.5 };
 
             // Convertendo o objeto Anime para JSON
             var jsonContent = JsonSerializer.Serialize(newAnime);

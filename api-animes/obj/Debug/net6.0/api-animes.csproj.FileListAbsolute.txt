@@ -2,7 +2,11 @@ C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\testhost.dll
 C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\testhost.exe
 C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\appsettings.json
+C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\coverage.json
 C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\MvcTestingAppManifest.json
+C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
 C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\api-animes.exe
 C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\api-animes.deps.json
 C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\api-animes.runtimeconfig.json
@@ -403,7 +407,3 @@ C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\refint\api-an
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.pdb
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.genruntimeconfig.cache
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\ref\api-animes.dll
-C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll
-C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
-C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
-C:\Users\lglaj\source\repos\api-animes\api-animes\bin\Debug\net6.0\coverage.json
