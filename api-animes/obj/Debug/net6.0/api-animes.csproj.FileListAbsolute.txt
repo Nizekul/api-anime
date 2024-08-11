@@ -401,9 +401,9 @@ C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\staticwebasse
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\scopedcss\bundle\api-animes.styles.css
-C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.csproj.CopyComplete
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.dll
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\refint\api-animes.dll
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.pdb
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.genruntimeconfig.cache
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\ref\api-animes.dll
+C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.csproj.CopyComplete

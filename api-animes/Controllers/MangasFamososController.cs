@@ -36,6 +36,7 @@ namespace api_animes.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizarManga(Guid id, [FromBody] MangaModel manga)
         {
+            throw new NotImplementedException();
             if (manga == null)
             {
                 return BadRequest("Manga objeto é nulo");

@@ -22,9 +22,9 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.UseMiddleware<ErrorMiddleware>();
-    app.UseMiddleware<LoggMiddleware>();
 }
+app.UseMiddleware<LoggMiddleware>();
+app.UseMiddleware<ErrorMiddleware>();
 
 app.UseHttpsRedirection();
 

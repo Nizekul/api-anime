@@ -31,7 +31,7 @@ namespace api_animes.Repository
             var mangaAtt = _mangas.FirstOrDefault(m => m.Id == id);
             if (mangaAtt == null)
             {
-                return null;
+                return mangaAtt;
             }
 
             mangaAtt.Titulo = manga.Titulo;
