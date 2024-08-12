@@ -1,4 +1,4 @@
-Para rodar o Vagrant basta utilizar o comando `vagrant up`
+Para rodar o Vagrant basta utilizar o comando `vagrant up` e para testar pode acessar o ssh da `vm1` com o comando `vagrant ssh vm1` após isso pode utilizar o comando `ping 192.168.56.11 -t`.
 Por enquanto não é possive acessar externo pois será preciso hospedar o ASP.NET Core no Windows com o IIS, ainda não implementado.
 
 1. Abra o Visual Studio: Inicie o Visual Studio em seu computador.
