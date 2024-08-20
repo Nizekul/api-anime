@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Kxsl+knSAREpfjHAlscAHON8iojdYVS6WVsw88pL1BIt7s3xPxEEe03+/tYNSCyc1pGIFjRLfqGzTUW8btMsCw==",
+  "dgSpecHash": "5ydGYV0z//0=",
   "success": true,
   "projectFilePath": "C:\\Users\\lglaj\\source\\repos\\api-animes\\api-animes\\api-animes.csproj",
   "expectedPackageFiles": [
@@ -61,7 +61,11 @@
     "C:\\Users\\lglaj\\.nuget\\packages\\xunit.core\\2.7.0\\xunit.core.2.7.0.nupkg.sha512",
     "C:\\Users\\lglaj\\.nuget\\packages\\xunit.extensibility.core\\2.7.0\\xunit.extensibility.core.2.7.0.nupkg.sha512",
     "C:\\Users\\lglaj\\.nuget\\packages\\xunit.extensibility.execution\\2.7.0\\xunit.extensibility.execution.2.7.0.nupkg.sha512",
-    "C:\\Users\\lglaj\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.7\\xunit.runner.visualstudio.2.5.7.nupkg.sha512"
+    "C:\\Users\\lglaj\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.7\\xunit.runner.visualstudio.2.5.7.nupkg.sha512",
+    "C:\\Users\\lglaj\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\lglaj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\lglaj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\lglaj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.32\\microsoft.netcore.app.host.win-x64.6.0.32.nupkg.sha512"
   ],
   "logs": []
 }

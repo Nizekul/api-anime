@@ -42,13 +42,17 @@ Vagrant.configure("2") do |config|
      # Clonar o repositório da API do GitHub
      git clone https://github.com/Nizekul/api-anime.git /home/vagrant/api-anime
 
-     # Publicar a API
+     # Modificar o arquivo launchSettings.json para usar 192.168.56.11
+     sed -i 's/localhost/192.168.56.11/g' /home/vagrant/api-anime/api-animes/Properties/launchSettings.json
+
+     # Buildar a API
      cd /home/vagrant/api-anime
-     dotnet publish -c Release -o /home/vagrant/api-anime-published
+     dotnet build
 
      # Executar a API
-     cd /home/vagrant/api-anime-published
-     dotnet api-animes.dll
+     cd api-animes
+     dotnet run
+
    SHELL
   end
 

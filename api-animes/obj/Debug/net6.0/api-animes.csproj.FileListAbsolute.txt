@@ -406,4 +406,5 @@ C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\refint\api-an
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.pdb
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.genruntimeconfig.cache
 C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\ref\api-animes.dll
-C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.csproj.CopyComplete
+C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.sourcelink.json
+C:\Users\lglaj\source\repos\api-animes\api-animes\obj\Debug\net6.0\api-animes.csproj.Up2Date

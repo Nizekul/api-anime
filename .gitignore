@@ -13,3 +13,4 @@ obj/
 *.bak
 /api-animes/obj/
 /api-animes/bin
+/.vagrant
