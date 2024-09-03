@@ -1,0 +1,51 @@
+---
+- name: Provisionar VM e instalar dependências da API
+  hosts: servidores
+  become: yes
+  tasks:
+    - name: Atualizar o sistema e instalar dependências básicas
+      apt:
+        update_cache: yes
+        name:
+          - wget
+          - git
+          - apt-transport-https
+        state: present
+
+    - name: Baixar pacotes Microsoft
+      get_url:
+        url: https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
+        dest: /tmp/packages-microsoft-prod.deb
+
+    - name: Instalar pacotes Microsoft
+      command: dpkg -i /tmp/packages-microsoft-prod.deb
+
+    - name: Atualizar repositórios após adicionar pacotes Microsoft
+      apt:
+        update_cache: yes
+
+    - name: Instalar o .NET SDK
+      apt:
+        name: dotnet-sdk-6.0
+        state: present
+
+    - name: Clonar repositório da API do GitHub
+      git:
+        repo: https://github.com/Nizekul/api-anime.git
+        dest: /home/vagrant/api-anime
+
+    - name: Modificar o arquivo launchSettings.json para usar 192.168.56.11
+      replace:
+        path: /home/vagrant/api-anime/api-animes/Properties/launchSettings.json
+        regexp: 'localhost'
+        replace: '192.168.56.11'
+
+    - name: Buildar a API
+      command: dotnet build
+      args:
+        chdir: /home/vagrant/api-anime
+
+    - name: Executar a API
+      command: dotnet run
+      args:
+        chdir: /home/vagrant/api-anime/api-animes
