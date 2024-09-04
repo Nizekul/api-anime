@@ -14,3 +14,5 @@ obj/
 /api-animes/obj/
 /api-animes/bin
 /.vagrant
+/.vs
+/.vs
